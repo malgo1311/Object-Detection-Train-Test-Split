@@ -1,7 +1,8 @@
 # Object-Detection-Train-Test-Split
-When you have image data and corresponding xml files, this script will help in splitting the data in two folders - train and test
+When you have image data and corresponding xml files in a single folder, this script will help in splitting the data in two folders - train and test
 
 Usage:
+
 python train_test_split.py \
         --datadir='images/all/' \
         --split=0.1 \
