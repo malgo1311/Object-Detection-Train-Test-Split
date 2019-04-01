@@ -4,7 +4,7 @@ When you have image data and corresponding xml files in a single folder, this sc
 Usage:
 
 python train_test_split.py \
-       \t --datadir='images/all/' \
-       \t --split=0.1 \
-       \t --train_output='images/train/' \
-       \t --test_output='images/test/'
+              --datadir='images/all/' \
+              --split=0.1 \
+              --train_output='images/train/' \
+              --test_output='images/test/'
