@@ -55,9 +55,9 @@ def randomize_files(file_list):
 
 def get_training_and_testing_sets(file_list, split):
     split_index = floor(file_list.shape[0] * split)
-    training = file_list[:split_index]
-    testing = file_list[split_index:]
-    testing = testing.reset_index(drop=True)
+    testing = file_list[:split_index]
+    training = file_list[split_index:]
+    training = training.reset_index(drop=True)
     return training, testing
 
 def write_data(training, testing, datadir, train_output, test_output):
