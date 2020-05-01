@@ -5,8 +5,9 @@ The image and corresponding xml file should have same names.
 
 Usage:
 
-python train_test_split.py \
+python test_train_split.py \
               --datadir='images/all/' \
               --split=0.1 \
               --train_output='images/train/' \
-              --test_output='images/test/'
+              --test_output='images/test/' \
+              --image_ext='jpeg'
